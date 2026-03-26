@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T13:54:32.908902",
+  "generated_at": "2026-03-26T14:38:44.258368",
   "version": "3.92",
   "scan_hours": 72,
   "retention_days": 8,
@@ -4286,6 +4286,26 @@
           "zone": 2,
           "training_load": 2.401141,
           "decoupling": -1.1402004
+        }
+      ]
+    },
+    {
+      "activity_id": "i134946481",
+      "date": "2026-03-26",
+      "type": "Run",
+      "name": "Afternoon Run - Cadence",
+      "interval_summary": [
+        "1x 1h5m 92bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3955s@92bpm0rpm",
+          "duration_secs": 3955,
+          "avg_hr": 92,
+          "max_hr": 108,
+          "avg_cadence": 0.30337077,
+          "zone": 1
         }
       ]
     }

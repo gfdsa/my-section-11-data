@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-27T07:43:46.725947",
+    "last_updated": "2026-03-27T08:07:06.901275",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -140,7 +140,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-25",
-    "age_days": 1,
+    "age_days": 2,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -573,11 +573,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.27,
+          "planned_tss_delta": 2.13,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": 0.54,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -611,7 +611,7 @@
     "p_max": 1656,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 45.612537,
-    "calculation_timestamp": "2026-03-27T07:43:46.724003",
+    "calculation_timestamp": "2026-03-27T08:07:06.899333",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1189,6 +1189,18 @@
       "description": "- 25m Ramp 55-72% FTP\n- 55m 65-75% FTP steady\n- 18m 85-90% FTP steady\n- 20m 60-70% FTP recovery\n- 55m 65-75% FTP steady\n- 18m 85-90% FTP steady\n- 20m 60-70% FTP recovery\n- 34m 65-75% FTP steady\n- 55m 60-70% FTP endurance"
     },
     {
+      "id": 100896223,
+      "date": "2026-03-28",
+      "name": "Mallorca Simulation Lite \u2014 Discipline Climbing Reference",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 250,
+      "duration_hours": 5.25,
+      "duration_formatted": "5h15m",
+      "workout_summary": null,
+      "description": "SATURDAY OBJECTIVE: discipline, not heroics. 86 km / ~2137 m climbing reference route.\n\nPACING RULES\n- Flats/rolling before climbs: 60-72% FTP, keep it conversational.\n- Main climbs: cap steady work at 76-88% FTP. Short ramps may touch 90-95% FTP for <60s, then return under control.\n- Absolute rule: no sustained threshold efforts, no ego surges, no chasing segment fantasies.\n- Descents: full recovery, eat and drink.\n\nHEART RATE GUARDRAILS\n- Aerobic ceiling most of the day: <83% LTHR (~<138 bpm).\n- On longer climbs: allow brief drift into high aerobic / low tempo, but avoid sitting above ~145-148 bpm for long stretches.\n- If HR is unusually high early for ordinary power: back off.\n\nFUEL / HYDRATION\n- Start fed.\n- 80-90 g carbs/hour.\n- 500-750 ml/hour, more if warm.\n- Eat early, not after the damage is done.\n\nEXECUTION CHECKS\n- First 90 min should feel almost too easy.\n- If legs feel amazing, ignore them.\n- If repeated climbs require >90% FTP just to hold rhythm, you are overcooking it.\n- If by hour 4 power fades but HR remains stable and pacing stays controlled, that is acceptable fatigue.\n\nPOST-RIDE INTENT\n- This is a reference workout for comparing planned vs actual pacing, intensity distribution, HR drift, and discipline under climbing load."
+    },
+    {
       "id": 100475298,
       "date": "2026-03-29",
       "name": "Workout - Endurance 150",
@@ -1372,7 +1384,7 @@
     "success": 3,
     "patternA": 0,
     "patternB": 3,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 6
   },
   "weekly_summary": {

@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-27T10:05:18.543183",
+    "last_updated": "2026-03-27T10:33:10.064201",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -573,11 +573,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.13,
+          "planned_tss_delta": 2.63,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": 0.54,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -611,7 +611,7 @@
     "p_max": 1656,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 45.612537,
-    "calculation_timestamp": "2026-03-27T10:05:18.541224",
+    "calculation_timestamp": "2026-03-27T10:33:10.062160",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1213,6 +1213,18 @@
       "description": "- 15m Ramp 55-70% FTP\n- 120m 65-75% FTP steady\n- 15m Ramp 65-45% FTP cooldown"
     },
     {
+      "id": 100916378,
+      "date": "2026-03-29",
+      "name": "Fatigue Resistance Endurance Reference",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 145,
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
+      "workout_summary": null,
+      "description": "SUNDAY OBJECTIVE: controlled endurance on tired legs. This is the day after the climbing simulation, so the goal is durability and fatigue resistance, not a second hard session.\n\nPACING RULES\n- Ride mostly at 62-75% FTP.\n- First hour: strictly easy aerobic, keep pressure low and cadence smooth.\n- Middle block: settle into honest endurance, but avoid drifting into tempo just because the legs wake up.\n- Final hour: stay steady. If good legs remain, hold upper Z2 only; do NOT turn it into a progression ride.\n\nHEART RATE GUARDRAILS\n- Normal target: stay under ~83% LTHR (~<138 bpm).\n- Brief rises on rollers are fine, but if HR keeps climbing while power stays ordinary, back off.\n- If fatigue is real and legs are dull, that is acceptable; protect the aerobic purpose.\n\nEXECUTION CHECKS\n- This ride should look cleaner than it feels.\n- Minimal surging, minimal ego, minimal grey-zone leakage.\n- If Saturday was harder than planned, shorten to 150-180 min and keep it fully aerobic.\n\nFUEL / HYDRATION\n- 60-80 g carbs/hour.\n- 500-750 ml/hour.\n- Start eating early; tired legs plus low glycogen is just fake heroism.\n\nPOST-RIDE INTENT\n- Reference workout for comparing actual endurance durability after Saturday load: pacing stability, HR behavior, decoupling, and discipline under fatigue."
+    },
+    {
       "id": 99946720,
       "date": "2026-03-30",
       "name": "OFF",
@@ -1384,7 +1396,7 @@
     "success": 3,
     "patternA": 0,
     "patternB": 3,
-    "bail_no_workout_doc": 1,
+    "bail_no_workout_doc": 2,
     "bail_no_match": 6
   },
   "weekly_summary": {

@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T11:14:15.775091",
+    "last_updated": "2026-03-29T11:31:35.250124",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -596,7 +596,7 @@
           "planned_tss_delta": 1.1,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 0.39,
+          "next_week_load": 0.28,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.4
         },
@@ -633,7 +633,7 @@
     "p_max": 1656,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 45.606865,
-    "calculation_timestamp": "2026-03-29T11:14:15.772858",
+    "calculation_timestamp": "2026-03-29T11:31:35.247532",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1211,40 +1211,40 @@
       "description": ""
     },
     {
-      "id": 99947385,
+      "id": 101231106,
       "date": "2026-03-31",
-      "name": "Workout - Tempo 2x15",
+      "name": "Aerobic Reset 75",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 79,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "- 15m Ramp 55-72% FTP\n- 15m 82-87% FTP steady\n- 8m 55% FTP recovery\n- 15m 82-87% FTP steady\n- 37m 60-70% FTP endurance"
-    },
-    {
-      "id": 99947386,
-      "date": "2026-04-01",
-      "name": "Workout - Endurance 75",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 54,
+      "planned_tss": 45,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
-      "description": "- 10m Ramp 55-70% FTP\n- 50m 65-72% FTP steady\n- 15m Ramp 65-45% FTP cooldown"
+      "description": "- 15m ramp 50%-65%\n- 45m 60-70%\n- 15m ramp 65%-50%"
     },
     {
-      "id": 99947387,
-      "date": "2026-04-02",
-      "name": "Workout - Openers 3x4",
+      "id": 101231107,
+      "date": "2026-04-01",
+      "name": "Endurance 75 \u2014 Smooth Only",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 68,
-      "duration_hours": 1.23,
-      "duration_formatted": "1h14m",
-      "workout_summary": "15m @143W | 3\u00d74m @226W / 6m rec | 29m @143W",
-      "description": "- 15m Ramp 55-75% FTP\n- 4m 100-105% FTP steady\n- 6m 55% FTP recovery\n- 4m 100-105% FTP steady\n- 6m 55% FTP recovery\n- 4m 100-105% FTP steady\n- 6m 55% FTP recovery\n- 29m 60-70% FTP endurance"
+      "planned_tss": 50,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": "- 10m ramp 50%-65%\n- 55m 65-72%\n- 10m ramp 65%-50%"
+    },
+    {
+      "id": 101231108,
+      "date": "2026-04-02",
+      "name": "Sharpener 3x4 Controlled",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 58,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "description": "- 15m ramp 50%-75%\n\n3x\n- 4m 92-97%\n- 4m 55%\n\n- 31m 60-68%\n- 8m 50%"
     },
     {
       "id": 99946725,
@@ -1259,28 +1259,28 @@
       "description": ""
     },
     {
-      "id": 99947388,
+      "id": 101231109,
       "date": "2026-04-04",
-      "name": "Workout - Endurance 150",
+      "name": "Endurance 120 \u2014 Camp Prep",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 131,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
+      "planned_tss": 85,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
-      "description": "- 20m Ramp 55-72% FTP\n- 33m 65-75% FTP steady\n- 12m 88-92% FTP steady\n- 8m 55% FTP recovery\n- 33m 65-75% FTP steady\n- 12m 88-92% FTP steady\n- 32m 60-70% FTP endurance"
+      "description": "- 15m ramp 50%-65%\n- 90m 65-75%\n- 15m ramp 65%-50%"
     },
     {
-      "id": 99947389,
+      "id": 101231110,
       "date": "2026-04-05",
-      "name": "Workout - Recovery 60",
+      "name": "Recovery 45-60",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 33,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 22,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
-      "description": "- 10m Ramp 50-60% FTP\n- 40m 55-62% FTP easy\n- 10m Ramp 60-45% FTP cooldown"
+      "description": "- 10m 45-50%\n- 30m 50-55%\n- 10m 45-50%"
     },
     {
       "id": 99946730,
@@ -1295,26 +1295,28 @@
       "description_preview": null
     },
     {
-      "id": 99947390,
+      "id": 101231111,
       "date": "2026-04-07",
-      "name": "Workout - Openers 3x1",
+      "name": "Openers 3x1",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 48,
-      "duration_hours": 1.02,
-      "duration_formatted": "1h1m",
-      "workout_summary": "15m @140W | 3\u00d71m @258W / 5m rec | 28m @143W"
+      "planned_tss": 40,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "description_preview": "- 15m ramp 50%-70%\n3x\n- 1m 105-110%"
     },
     {
-      "id": 99947391,
+      "id": 101231112,
       "date": "2026-04-08",
-      "name": "Workout - Pre-Travel 45",
+      "name": "Pre-Travel 40-45",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 27,
+      "planned_tss": 24,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
-      "workout_summary": "10m @126W | 3\u00d730s @198W / 9m30s rec"
+      "workout_summary": null,
+      "description_preview": "- 10m 45-55%\n- 25m 55-65%\n3x"
     },
     {
       "id": 99946733,
@@ -1366,12 +1368,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 3,
+    "attempted": 0,
+    "success": 0,
     "patternA": 0,
-    "patternB": 3,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 4
+    "patternB": 0,
+    "bail_no_workout_doc": 8,
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 13.24,

@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-30T05:58:02.318230",
+    "last_updated": "2026-03-30T06:50:49.306605",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -81,29 +81,29 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 130.8,
-        "delta_pct": null
+        "status": "green",
+        "value": 137.0,
+        "baseline_7d": 131.7,
+        "delta_pct": 4.0
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 52.3,
-        "delta_bpm": null
+        "status": "green",
+        "value": 50,
+        "baseline_7d": 52,
+        "delta_bpm": -2
       },
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 2
       },
       "acwr": {
         "status": "green",
         "value": 1.13
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.08
       },
       "tsb": {
         "status": "red",
@@ -111,10 +111,10 @@
       }
     },
     "signal_summary": {
-      "green": 1,
+      "green": 4,
       "amber": 0,
       "red": 1,
-      "unavailable": 4
+      "unavailable": 1
     },
     "phase_context": {
       "phase": "Deload",
@@ -182,7 +182,7 @@
       "w_prime": 20646,
       "w_prime_kj": 20.6,
       "p_max": 1656,
-      "vo2max": null,
+      "vo2max": 45.63661,
       "sports": {
         "cycling": {
           "lthr": 166,
@@ -212,17 +212,17 @@
     },
     "current_metrics": {
       "weight_kg": 80.0,
-      "resting_hr": 58,
-      "hrv": null,
-      "sleep_quality": null,
+      "resting_hr": 50,
+      "hrv": 137.0,
+      "sleep_quality": 2,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
-      "fatigue": null,
-      "soreness": null,
+      "sleep_score": 7.0,
+      "fatigue": 3,
+      "soreness": 3,
       "stress": null,
       "mood": null,
-      "motivation": null,
+      "motivation": 2,
       "injury": null,
       "hydration": null,
       "spO2": null,
@@ -242,17 +242,17 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 9.5
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 130.8,
-    "rhr_baseline_7d": 52.3,
-    "hrv_baseline_28d": 101.4,
-    "rhr_baseline_28d": 54.6,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "recovery_index": 1.08,
+    "hrv_baseline_7d": 131.7,
+    "rhr_baseline_7d": 52,
+    "hrv_baseline_28d": 102.7,
+    "rhr_baseline_28d": 54.4,
+    "latest_hrv": 137.0,
+    "latest_rhr": 50,
     "acwr": 1.13,
     "acwr_interpretation": "optimal",
     "monotony": 0.85,
@@ -264,7 +264,7 @@
     "multi_sport_detected": true,
     "strain": 904.0,
     "stress_tolerance": 10.6,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 9.8,
     "tss_7d_total": 1063.0,
     "tss_28d_total": 3775.0,
     "zone_distribution_7d": {
@@ -615,11 +615,11 @@
     "w_prime_kj": 20.6,
     "p_max": 1656,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-03-30T05:58:02.316074",
+    "vo2max": 45.63661,
+    "calculation_timestamp": "2026-03-30T06:50:49.304449",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 23,
       "planned_workouts_7d": 9,
@@ -1131,21 +1131,21 @@
     {
       "date": "2026-03-30",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
+      "resting_hr": 50,
+      "hrv_rmssd": 137.0,
+      "hrv_sdnn": 121.0,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 2,
+      "sleep_score": 7.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
+      "vo2max": 45.63661,
+      "fatigue": 3,
+      "soreness": 3,
       "stress": null,
       "mood": null,
-      "motivation": null,
+      "motivation": 2,
       "injury": null,
       "hydration": null,
       "spO2": null,
@@ -1165,7 +1165,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 9.5
     }
   ],
   "planned_workouts": [
@@ -1423,8 +1423,8 @@
     "total_training_formatted": "13h14m",
     "total_tss": 1063,
     "activities_count": 5,
-    "avg_hrv": 130.8,
-    "avg_resting_hr": 52.3
+    "avg_hrv": 131.7,
+    "avg_resting_hr": 52.0
   },
   "race_calendar": {
     "next_race": null,

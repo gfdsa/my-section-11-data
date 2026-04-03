@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-03T07:14:30.379703",
+    "last_updated": "2026-04-03T07:45:28.078572",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -127,14 +127,14 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 2,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 1,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
@@ -557,10 +557,10 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
+      "phase": "Build",
+      "confidence": "low",
       "reason_codes": [
-        "BUILD_HISTORY_REDUCED_LOAD"
+        "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
       ],
       "basis": {
         "stream_1": {
@@ -570,24 +570,24 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 0.53,
+          "planned_tss_delta": 1.0,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": 0.14,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
-        "stream_agreement": false
+        "stream_agreement": null
       },
       "previous_phase": "Deload",
-      "phase_duration_weeks": 2,
+      "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
+    "phase_detected": "Build",
     "phase_triggers": [
-      "BUILD_HISTORY_REDUCED_LOAD"
+      "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -610,7 +610,7 @@
     "p_max": 1656,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-03T07:14:30.377962",
+    "calculation_timestamp": "2026-04-03T07:45:28.076866",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1158,6 +1158,18 @@
       "description": "- 15m ramp 50%-65%\n- 90m 65-75%\n- 15m ramp 65%-50%"
     },
     {
+      "id": 102253761,
+      "date": "2026-04-04",
+      "name": "Easter Ride \u2014 3h Z1-Z2 Chatting",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 95,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "description": "- 15m 45-55%\n- 150m 55-72%\n- 15m 45-50%\n\nNOTE: Social/chatting ride. Keep it easy enough to talk. If the group pace rises, let them be stupid without you."
+    },
+    {
       "id": 101231110,
       "date": "2026-04-05",
       "name": "Recovery 45-60",
@@ -1283,7 +1295,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 8,
+    "bail_no_workout_doc": 9,
     "bail_no_match": 0
   },
   "weekly_summary": {

@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-04T17:44:33.192012",
+    "last_updated": "2026-04-04T17:59:01.273617",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -125,13 +125,13 @@
         "value": 1.99
       },
       "tsb": {
-        "status": "amber",
-        "value": -24.8
+        "status": "green",
+        "value": -10.1
       }
     },
     "signal_summary": {
-      "green": 3,
-      "amber": 2,
+      "green": 4,
+      "amber": 1,
       "red": 0,
       "unavailable": 1
     },
@@ -143,7 +143,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 2 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 4 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -175,17 +175,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 109.42,
-      "atl": 134.22,
-      "tsb": -24.8,
-      "ramp_rate": 1.93,
+      "ctl": 105.18,
+      "atl": 115.29,
+      "tsb": -10.11,
+      "ramp_rate": -2.31,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 247.0,
-      "w_prime": 20646,
+      "eftp": 246.8,
+      "w_prime": 20625,
       "w_prime_kj": 20.6,
-      "p_max": 1656,
+      "p_max": 1654,
       "vo2max": 44.996544,
       "sports": {
         "cycling": {
@@ -541,7 +541,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 220,
-          "w_prime_used": 20646,
+          "w_prime_used": 20625,
           "ftp_staleness_days": 10,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -574,21 +574,21 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 3.73,
+          "ctl_slope": 2.68,
           "acwr_trend": "stable",
           "hard_day_pattern": 3.8,
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 1.28,
+          "planned_tss_delta": 0.74,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": 0.12,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": "Deload",
       "phase_duration_weeks": 1,
@@ -614,19 +614,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 247.0,
-    "w_prime": 20646,
+    "eftp": 246.8,
+    "w_prime": 20625,
     "w_prime_kj": 20.6,
-    "p_max": 1656,
+    "p_max": 1654,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 44.996544,
-    "calculation_timestamp": "2026-04-04T17:44:33.190232",
+    "calculation_timestamp": "2026-04-04T17:59:01.271874",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 22,
-      "planned_workouts_7d": 12,
+      "planned_workouts_7d": 11,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1174,18 +1174,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 101231109,
-      "date": "2026-04-04",
-      "name": "Endurance 120 \u2014 Camp Prep",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 85,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "description": "- 15m ramp 50%-65%\n- 90m 65-75%\n- 15m ramp 65%-50%"
-    },
-    {
       "id": 102253761,
       "date": "2026-04-04",
       "name": "Easter Ride \u2014 3h Z1-Z2 Chatting",
@@ -1323,7 +1311,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 7,
+    "bail_no_workout_doc": 6,
     "bail_no_match": 0
   },
   "weekly_summary": {

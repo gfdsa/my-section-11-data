@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-07T20:30:42.116344",
+    "last_updated": "2026-04-07T21:03:42.635497",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.92"
@@ -126,7 +126,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 17.9
+        "value": 15.3
       }
     },
     "signal_summary": {
@@ -170,10 +170,10 @@
   "current_status": {
     "fitness": {
       "ctl": 97.93,
-      "atl": 80.03,
-      "tsb": 17.9,
+      "atl": 82.61,
+      "tsb": 15.32,
       "ramp_rate": -9.63,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 246.0,
@@ -541,17 +541,16 @@
         }
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 3,
       "matched_days": 2,
       "planned_dates": [
         "2026-04-01",
         "2026-04-02",
         "2026-04-04",
-        "2026-04-05",
-        "2026-04-07"
+        "2026-04-05"
       ],
       "completed_dates": [
         "2026-04-02",
@@ -573,11 +572,11 @@
           "weeks_available": 5
         },
         "stream_2": {
-          "planned_tss_delta": 0.17,
+          "planned_tss_delta": 0.11,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -613,13 +612,13 @@
     "p_max": 1649,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 44.98497,
-    "calculation_timestamp": "2026-04-07T20:30:42.114856",
+    "calculation_timestamp": "2026-04-07T21:03:42.634129",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
       "activities_7d": 3,
       "activities_28d": 19,
-      "planned_workouts_7d": 11,
+      "planned_workouts_7d": 10,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1068,7 +1067,7 @@
   "planned_workouts": [
     {
       "id": 101231111,
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "name": "Openers 3x1",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -1077,18 +1076,6 @@
       "duration_formatted": "55m",
       "workout_summary": null,
       "description": "- 15m ramp 50%-70%\n\n3x\n- 1m 105-110%\n- 4m 55%\n\n- 25m 60-68%\n- 5m 50%"
-    },
-    {
-      "id": 101231112,
-      "date": "2026-04-08",
-      "name": "Pre-Travel 40-45",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 24,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "description": "- 10m 45-55%\n- 25m 55-65%\n\n3x\n- 20s 95rpm\n- 2m 50%\n\n- 5m 45-50%"
     },
     {
       "id": 99946733,
@@ -1144,7 +1131,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 0
   },
   "weekly_summary": {
